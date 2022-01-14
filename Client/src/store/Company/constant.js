@@ -1,0 +1,24 @@
+
+const constants = {
+    GET_REQUEST: "@company/GET_MOVIE",
+    GET_SUCCESS: "@company/GET_SUCCESS",
+    GET_FAILURE: "@company/GET_FAILURE",
+    
+    CREATE_REQUEST: "@company/CREATE_REQUEST",
+    CREATE_SUCCESS: "@company/CREATE_SUCCESS",
+    CREATE_FAILURE: "@company/CREATE_FAILURE",
+
+    GET_INFO_REQUEST: "@company/GET_INFO_REQUEST",
+    GET_INFO_SUCCESS: "@company/GET_INFO_SUCCESS",
+    GET_INFO_FAILURE: "@company/GET_INFO_FAILURE",
+
+    UPDATE_REQUEST: "@company/UPDATE_REQUEST",
+    UPDATE_SUCCESS: "@company/UPDATE_SUCCESS",
+    UPDATE_FAILURE: "@company/UPDATE_FAILURE",
+
+    DELETE_REQUEST: "@company/DELETE_REQUEST",
+    DELETE_SUCCESS: "@company/DELETE_SUCCESS",
+    DELETE_FAILURE: "@company/DELETE_FAILURE",
+}
+
+export { constants };
